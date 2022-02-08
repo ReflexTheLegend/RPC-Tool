@@ -263,7 +263,7 @@ print(f'''{Fore.LIGHTWHITE_EX}
 | $$  \ $$| $$      | $$    $$         | $$| $$  | $$| $$  | $$| $$
 | $$  | $$| $$      |  $$$$$$/         | $$|  $$$$$$/|  $$$$$$/| $$
 |__/  |__/|__/       \______/          |__/ \______/  \______/ |__/                                                                
-''')
+''') #Sick ASCII logo XD
 time.sleep(0.5)
 print(f'{Fore.LIGHTBLACK_EX}Made by: {Fore.WHITE}R3FL3X#1337 {Fore.LIGHTBLACK_EX}| Licenced under {Fore.WHITE}MIT License')
 time.sleep(1)
@@ -333,6 +333,7 @@ elif(buts=='yes'):
         print(f'{Fore.LIGHTBLACK_EX}[{Fore.RED}X{Fore.LIGHTBLACK_EX}] Please select only between 1 and 2!')
 else:
     print(f"{Fore.LIGHTBLACK_EX}[{Fore.RED}X{Fore.LIGHTBLACK_EX}] Please select between yes or no only!")
+  #Finished requesting RPC components (oof)
 
 print(f'{Fore.BLUE}RPC is running!')
 
@@ -345,4 +346,4 @@ def rpc():
     while True:
         RPC.update(start=start_time, details=details1, state=state1, large_image=l_image, small_image=s_image, large_text=l_text, small_text=s_text, buttons=[{"label": label1, "url": url1}, {"label": label2, "url": url2},])  # Set the presence
         time.sleep(1)
-rpc()
+rpc() #Start the RPC
